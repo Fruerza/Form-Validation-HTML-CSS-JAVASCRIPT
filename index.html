@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form id="form" action="/" method="GET">
+        <div>
+            <label for="name">Nama Pengguna</label>
+            <input id="name" name="name" type="text" required>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password">
+            <div id="error"></div>    
+        </div>
+        <button type="submit">Login</button>
+    </form>
+
+</body>
+</html>
